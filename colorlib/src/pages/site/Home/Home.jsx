@@ -16,8 +16,8 @@ const Home = () => {
       <p>Who are in extremely love with eco friendly system.</p>
       <input type="text" placeholder='Search' value={search} onChange={(e)=>setSearch(e.target.value)} />
       <div className="sort__buttons">
-        <button onClick={() => setSortBy({ field: "price", asc: true })}>Artan</button>
-        <button onClick={() => setSortBy({ field: "price", asc: false })}>Azalan</button>
+        <button onClick={() => setSortBy({ field: "price", asc: true })}>Low to High</button>
+        <button onClick={() => setSortBy({ field: "price", asc: false })}>High to Low</button>
         <button onClick={() => setSortBy(null)}>Default</button>
       </div>
       <Cards cards={data.filter(x => x.name.toLowerCase().includes(search.toLowerCase())).sort((a, b) => {
