@@ -1,0 +1,93 @@
+.mini__images{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 5px;
+}
+
+.mini__icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 20px;
+}
+
+.footer__bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    background-color: #222222;
+}
+
+.footer__top{
+    padding-top: 90px;
+    background-color: #222222;
+}
+
+.footer__top h4{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer__top p{
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+}
+
+.footer__bottom p{
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+}
+
+.footer__top input{
+    border: none;
+    width: 80% !important;
+    font-weight: 300;
+    background: #191919;
+    color: #777;
+    padding: 10px 20px;
+}
+
+
+.footer__top form{
+    position: relative;
+}
+
+.footer__top form label{
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    margin-bottom: 15px;
+}
+
+.footer__top i{
+    color: white;
+    font-size: 14px;
+}
+
+.footer__top button{
+    background-color: crimson;
+    color: white;
+    border: none;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 39.5px;
+    right: 60px;
+    font-size: 16px;
+}
+
+.footer__bottom p{
+    margin: 0;
+}
