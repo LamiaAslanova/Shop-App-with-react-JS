@@ -1,0 +1,34 @@
+.sort__buttons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.sort__buttons button{
+    background-color: coral;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+.left{
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid #5c626e;
+    margin-right: 10px;
+}
+
+.right{
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid #5c626e;
+    margin-left: 10px;
+}

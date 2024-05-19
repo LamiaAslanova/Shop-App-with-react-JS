@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Header.css'
 
 const Header = () => {
   return (
@@ -27,7 +28,7 @@ const Header = () => {
               <Link to='/'>Home</Link>
             </li>
             <li>
-              <Link to='/cart'>Cart</Link>
+              <Link to='/basket'>Cart</Link>
             </li>
           </ul>
         </div>

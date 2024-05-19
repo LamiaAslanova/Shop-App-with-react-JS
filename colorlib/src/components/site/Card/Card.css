@@ -1,0 +1,26 @@
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body p{
+    margin: 0 !important;
+}
+
+.card-body button{
+    border: none;
+    background: transparent;
+}
+
+.cards{
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards p{
+    margin-bottom: 50px;
+}

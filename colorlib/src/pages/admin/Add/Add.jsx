@@ -3,11 +3,15 @@ import {Formik} from 'formik'
 import axios from 'axios'
 import MainContext from '../../../context/context'
 import { v4 as uuidv4 } from 'uuid';
+import { Helmet } from 'react-helmet';
 
 const Add = () => {
   const {data, setData} = useContext(MainContext)
   return (
     <div>
+      <Helmet>
+        <title>Add Page</title>
+      </Helmet>
      <h1>Anywhere in your app!</h1>
      <Formik
        initialValues={{ image: '', name: '', price: '' }}

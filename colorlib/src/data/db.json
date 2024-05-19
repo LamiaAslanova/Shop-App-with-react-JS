@@ -1,16 +1,28 @@
 {
   "products": [
     {
-      "id": "1",
+      "id": "ab3b277c-9162-43e2-86c1-654c506d989f",
       "image": "https://preview.colorlib.com/theme/shop/img/l5.jpg.webp",
-      "name": "Long Sleeve shirt",
+      "name": "Short Sleeve shirt",
       "price": 150
     },
     {
-      "id": "00e3dd35-b599-40f9-8ea6-a7d988808179",
-      "image": "https://texnomart.az/wp-content/uploads/2022/10/texnomart-Huawei-Nova-9SE-blue-og2ywapj73q5fultrsei.jpg",
-      "name": "Noah Ferguson",
-      "price": 226
+      "id": "2a368952-c1b7-4562-ae53-0e667798c85e",
+      "image": "https://preview.colorlib.com/theme/shop/img/l6.jpg.webp",
+      "name": "Long Sleeve shirt",
+      "price": 140
+    },
+    {
+      "id": "3fb37f15-d21d-413a-9ebd-f1e31f7c0bb2",
+      "image": "https://preview.colorlib.com/theme/shop/img/l7.jpg.webp",
+      "name": "Short Sleeve shirt",
+      "price": 160
+    },
+    {
+      "id": "8dd2d6c6-bf7c-446c-822c-73549c2509a1",
+      "image": "https://preview.colorlib.com/theme/shop/img/l8.jpg.webp",
+      "name": "Long Sleeve shirt",
+      "price": 100
     }
   ]
 }
